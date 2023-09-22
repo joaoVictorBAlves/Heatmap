@@ -1,0 +1,25 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.heatmap-square:hover {
+    opacity: 0.8;
+}
