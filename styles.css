@@ -8,8 +8,55 @@ html {
     background-color: #f0f0f0;
 }
 
+.container {
+    display: flex;
+}
+
+.controls {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+}
+
 canvas {
-    border: 1px solid #000;
+    border: 1px solid #ccc;
+}
+
+/* Estilizando o formulário */
+#sortForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilizando os grupos de formulário */
+.form-group {
+    margin-bottom: 10px;
+    width: 100%;
+    /* Definindo largura de 100% */
+}
+
+/* Estilizando os selects */
+form select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Ajustando o botão */
+form button {
+    width: 100%;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Alterando a cor do botão quando hover */
+form button:hover {
+    background-color: #0056b3;
 }
 
 .tooltip {
